@@ -1,3 +1,4 @@
+
 1. Emmanuel michael
 2.Enobong Okpongete
 3.Chima Prosper 
@@ -12,6 +13,11 @@
 12. Emediong Ekpenyong
 13. Edet Wisdom
 14. Enobong Augustine
+<<<<<<< HEAD
 15. Victor Thomas
+=======
+15. Ani Manfred Ekpe
+
+>>>>>>> 743f9c7693ba709772a37994369657d58305c590
 
 

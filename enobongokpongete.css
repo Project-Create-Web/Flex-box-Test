@@ -1,0 +1,56 @@
+body {
+    font-size: 25px;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+.top{
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+.links{
+    display: flex;
+    background-color: #333;
+    font-size: 25px;
+}
+.links a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.links a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.container {  
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    padding:  0px 50px 0px 0px;
+}   
+.about{
+    display: flex;
+    width: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    flex-direction: column;
+    font-size: 20px;
+} 
+.main {
+   display: flex;
+   width: 70%;
+   background-color: white;
+   padding: 20px;
+   flex-direction: column;
+   font-size: 20px;
+}
+.image{
+    background-color: grey;
+    height: 300px;
+    padding: 20px;
+}
+
+

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Using flex box</title>
+</head>
+
+<style>
+
+ body
+{
+    padding: 0px;
+    margin: 0px;
+} 
+.green-container
+{
+    display:flex;
+    background-color: #1abc9c;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: white;
+}
+.link-flex
+{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 50px;
+    align-items: center;
+}
+.link-flex a
+{
+    display: flex;
+    width: 80px; 
+    justify-content: center; 
+}
+
+.flex-bottom
+{
+    display: flex;
+}
+ .flex-bottom-left
+{
+    display: flex;
+    height: 300px;
+    width: 600px;
+    background-color: rgb(230, 224, 224);   
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-bottom-right
+{  
+    display: flex;
+     justify-content: center; 
+     flex-wrap: wrap; 
+    height: 300px; 
+}
+.abt-div
+{
+    display: flex;
+    width: 270px; 
+    font-size: 1.19em;
+     flex-direction: column;  
+    line-height: 10px;
+} 
+.title-div
+{
+    display: flex;
+    width: 950px; 
+    justify-content: center; 
+    font-size: 1.19em;
+     flex-direction: column;  
+    line-height: 10px;
+} 
+.p2
+{
+    display: flex;
+    width: 90px;
+    justify-content: center;
+    font-size: 1.19em;
+} 
+.bottom-box1
+{
+display: flex;
+width: 950px;
+height: 200px;
+background-color: rgb(155, 151, 151);
+} 
+.flex-image
+{
+    display: flex;
+    width: 270px;
+    height: 200px;
+    background-color: rgb(155, 151, 151);
+}
+
+</style>
+<body>
+        <div class="container">
+                
+                <div class="green-container">
+                    <div>
+                     <h2>My Website</h2>
+                     <h4>with flexible layout</h4>
+                    </div>
+                </div>
+                <div class="link-flex">
+                    <a>Link</a>
+                    <a>Link</a>
+                    <a>Link</a>
+                    <a>Link</a>
+                </div>
+                <div class="flex-bottom">
+                    <div class="flex-bottom-left">
+                       <div class="abt-div">
+                            <h3>
+                                About-me <br>
+                            </h3>
+                            <p>
+                                Photo-me
+                            </p>
+                        </div>
+                        <div class="flex-image">
+            
+                            <div class="x">
+                                <p class="p2">Image</p>
+                            </div>
+                            
+                        </div>
+            
+                    </div>
+                    <div class="flex-bottom-right">
+                        <div class="title-div">
+                        <p>
+                          TITLE HEADING
+                        </p>
+            
+                        <p>
+                         Title description, Dec 7, 2017
+                        </p>
+                    </div>  
+                        <div class="bottom-box1">
+                            <p class="p2">Image</p>
+                        </div>                                              
+                   
+        </div>
+    
+</body>
+</html>

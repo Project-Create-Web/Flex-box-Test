@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .first-section{
+            display: flex;
+            height: 300px;
+            background-color: rgb(11, 212, 169);
+            justify-content: center;
+            align-items: center;
+        }
+        .text{
+            text-align: center;
+        }
+        .text h2{
+            color: white;
+            text-transform: capitalize;
+            font-weight: bold;
+            font-size: 40px;
+        }
+        .text p{
+            color: white;
+            margin-top: -15px;
+            font-size: 18px;
+        }
+        .link-line{
+            display: flex;
+            height: 50px;
+            align-items: center;
+            background-color: rgb(54, 54, 54);
+        }
+        .link-line p{
+            /* display: flex;
+            height: 30px; */
+            /* justify-content: center;
+            align-items: center; */
+            cursor: pointer;
+            display: flex;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            /* border: 1px solid black; */
+            /* background-color: red; */
+            /* font-weight: bold; */
+            font-size: 17px;
+            color: white;
+        }
+        .last-section{
+            display: flex;
+            height: 340px;
+            width: 100%;
+        }
+        .about-text{
+            width: 25%;
+            background-color: rgb(240, 240, 240);
+        }
+        .about-text h4{
+            font-size: 27px;
+            text-transform: capitalize;
+        }
+        .title-text{
+            width: 72%;
+            margin-left: 40px;
+            /* background-color: rgb(216, 216, 216); */
+        }
+        .title-text h4{
+            font-size: 27px;
+            text-transform: uppercase;
+        }
+        .photo{
+            font-size: 15px;
+            text-transform: capitalize;
+            margin-top: -15px;
+            font-weight: bold;
+        }
+        .shaded{
+            display: flex;
+            height: 200px;
+            background-color: rgb(179, 179, 179);
+        }
+        .shaded p{
+            margin: 25px;
+        }
+        .pad{
+            margin: 0 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="first-section">
+        <div class="text">
+        <h2>my website</h2>
+        <p>with a <b> flexible</b> layout.</p>
+        </div>
+    </section>
+    <section class="link-line">
+        <p class="link">Link</p>
+        <p class="link">Link</p>
+        <p class="link">Link</p>
+        <p class="link">Link</p>
+    </section>
+    <section class="last-section">
+        <div class="about-text">
+            <div class="pad">
+            <h4>about me</h4>
+            <p class="photo">photo of me:</p>
+            <div class="shaded">
+                <p>image</p>
+            </div>
+            </div>
+        </div>
+        <div class="title-text">
+            <h4>title heading</h4>
+            <p class="photo">Title description, Dec 7, 2017</p>
+            <div class="shaded">
+                <p>image</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

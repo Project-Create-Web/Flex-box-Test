@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: arial;
+    width: 100%;
+    height:100%;
+}
+.header{
+    background-color:#1abc9a;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+.navbar{
+    display: flex;
+    background-color: #333;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+}
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.roll{
+    display: flex;
+
+}
+.side{
+    flex: 30%;
+    padding: 20px;
+    background-color:#f1f1f1;
+}
+.try{
+    background-color: #aaa;
+    padding: 20px;
+    /* width: 100%; */
+}
+.main{
+    flex: 70%;
+    padding: 20px;
+    background-color: white;
+
+}
+.run{
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex Box Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            padding: 3.8em;
+            color: white;
+            background-color: #1abc9c;
+           text-align: center;  
+        }
+        nav {
+            background-color: rgb(61, 55, 55);
+            display: flex;
+            align-content: center;
+        }
+        nav > a {
+            padding: 0.7em 1em;
+            color: white;
+            text-decoration: none;
+        }
+        nav > a:hover {
+            background-color: #f1f1f1;  
+            color: rgb(61, 55, 55);
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .left {
+            flex-grow: 3;
+            background-color: rgb(247, 244, 244);
+            padding: 1em;
+        }
+        .right {
+            flex-grow: 7;
+            padding: 1em;
+        }
+        .img {
+            background-color: #aaa;
+            align-self: center;
+            height: 200px;
+            padding: 1.3em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <p>With a <strong>flexible</strong> layout</p>
+    </header>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    <div class="container">
+        <section class="left">
+            <h2>About Me</h2>
+            <p>Photo of Me</p>
+            <div class="img">
+                Image
+            </div>
+        </section>
+        <section class="right">  
+            <h2>TITLE HEADING</h2>
+            <p>Title description, Dec 7, 2017</p>
+            <div class="img">
+                Image
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+    margin: 0;
+
+}
+
+.grid-container{
+   flex-wrap: wrap;
+  
+}
+
+.first{
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+.second{
+    display: flex;
+    background-color: #333;
+}
+.second a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.second a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.third{
+    display:flex;
+   
+}
+
+.third1{
+    padding: 20px;
+    flex: 30%;
+    background-color:#ddd;
+}
+.first-image{
+    background-color:rgb(189, 179, 179);
+    padding: 30px;
+    height: 180px;
+}
+
+.third2{
+    background-color: FFFFFF;
+    flex: 70%;
+    padding: 20px;
+}
+.second-image{
+    background-color:rgb(189, 179, 179);
+    padding: 30px;
+    height: 180px;
+}
+
